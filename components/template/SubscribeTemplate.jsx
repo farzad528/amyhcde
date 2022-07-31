@@ -3,6 +3,7 @@ import styles from './SubscribeTemplate.module.css'
 import FacebookIcon from '../icons/FacebookIcon'
 import TweeterIcon from '../icons/TweeterIcon'
 import EmailIcon from '../icons/EmailIcon'
+import DonateIcon from '../icons/DonateIcon'
 
 const SubscribeTemplate = () => (
   <main className={styles.subscribeTemplateContainer}>
@@ -28,6 +29,15 @@ const SubscribeTemplate = () => (
       >
         <EmailIcon />
         <span>Email</span>
+      </a>
+      <a
+        className={styles.mediaWrapper}
+        href='mailto: amyforhcde@gmail.com'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <DonateIcon />
+        <span>Donate</span>
       </a>
     </div>
 
