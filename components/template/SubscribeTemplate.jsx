@@ -32,7 +32,7 @@ const SubscribeTemplate = () => (
       </a>
       <a
         className={styles.mediaWrapper}
-        href='mailto: amyforhcde@gmail.com'
+        href='https://secure.actblue.com/donate/amy-hinojosa-for-hcde'
         target='_blank'
         rel='noopener noreferrer'
       >
@@ -55,7 +55,7 @@ const SubscribeTemplate = () => (
     <div className={styles.joinWrapper}>
       <p>Join the subscription list today</p>
       <div>
-        <input type='text' className={styles.input} />
+        <input type='text' className={styles.input} placeholder="Type your email here!" />
         <button className={styles.button}>Join List</button>
       </div>
     </div>
