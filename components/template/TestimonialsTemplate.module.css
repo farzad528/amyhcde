@@ -1,0 +1,34 @@
+.testimonialsTemplate {
+  background: #FAFAFA;
+  padding: 20px 0 100px 0;
+}
+
+.testimonialsWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.testimonialCard {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name, .role {
+  color: #9A9A9A;
+  margin: 0;
+}
+
+.name {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.testimonial {
+  color: #333333;
+  text-align: center;
+}

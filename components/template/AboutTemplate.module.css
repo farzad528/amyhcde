@@ -1,0 +1,25 @@
+.sectionTrack {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #CF5931;
+}
+
+.sectionTrack img {
+  display: none;
+}
+
+.sectionCard {
+  height: 100%;
+  width: 30vw;
+  margin: 35px 32px;
+}
+
+.sectionCard p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+

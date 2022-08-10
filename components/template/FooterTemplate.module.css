@@ -1,0 +1,33 @@
+.footerTemplate {
+  position: relative;
+  width: 100vw;
+  height: 150px;
+  background: #53337F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribeFooter {
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+  padding: 35px 95px;
+}
+
+.subscribeHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mediaWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.mediaWrapper svg {
+  margin-right: 10px;
+}
