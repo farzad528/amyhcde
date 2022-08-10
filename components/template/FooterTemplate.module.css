@@ -12,7 +12,6 @@
   position: absolute;
   right: 0;
   font-size: 14px;
-  padding: 35px 95px;
 }
 
 .subscribeHeader {
@@ -30,4 +29,23 @@
 
 .mediaWrapper svg {
   margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footerTemplate {
+    height: 200px;
+  }
+
+  .subscribeFooter {
+    margin-top: 20px;
+    position: block;
+    bottom: 0;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .mediaWrapper{
+    margin-left: 20px;
+  }
 }
