@@ -3,6 +3,7 @@ import styles from './SubscribeTemplate.module.css'
 import FacebookIcon from '../icons/FacebookIcon'
 import TweeterIcon from '../icons/TweeterIcon'
 import EmailIcon from '../icons/EmailIcon'
+import DonateIcon from '../icons/DonateIcon'
 
 const SubscribeTemplate = () => (
   <main className={styles.subscribeTemplateContainer}>
@@ -29,6 +30,15 @@ const SubscribeTemplate = () => (
         <EmailIcon />
         <span>Email</span>
       </a>
+      <a
+        className={styles.mediaWrapper}
+        href='https://secure.actblue.com/donate/amy-hinojosa-for-hcde'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <DonateIcon />
+        <span>Donate</span>
+      </a>
     </div>
 
     <div className={styles.logoWrapper}>
@@ -45,7 +55,7 @@ const SubscribeTemplate = () => (
     <div className={styles.joinWrapper}>
       <p>Join the subscription list today</p>
       <div>
-        <input type='text' className={styles.input} />
+        <input type='text' className={styles.input} placeholder="Type your email here!" />
         <button className={styles.button}>Join List</button>
       </div>
     </div>
