@@ -7,7 +7,7 @@ export default function Home() {
   return (
   <>
     <SubscribeTemplate />
-    {/* <AboutTemplate /> */}
+    <AboutTemplate />
     <TestimonialsTemplate />
     <FooterTemplate />
   </>

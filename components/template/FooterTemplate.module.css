@@ -1,6 +1,6 @@
 .footerTemplate {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 150px;
   background: #53337F;
   display: flex;
@@ -47,5 +47,9 @@
 
   .mediaWrapper{
     margin-left: 20px;
+  }
+
+  .subscribeHeader {
+    flex-wrap: wrap;
   }
 }

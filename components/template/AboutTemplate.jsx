@@ -10,11 +10,13 @@ const AboutTemplate = () => (
   <section className={styles.aboutTemplateContainer}>
 
     <div className={styles.sectionTrack}>
-      <Image
-        src={AmyAbout}
-        height={400}
-        className={styles.nextImage}
-      />
+      <div className={styles.nextImgWrapper}>
+        <Image
+          src={AmyAbout}
+          height={400}
+          className={styles.nextImage}
+        />
+      </div>
       <div className={styles.sectionCard}>
         <p>ABOUT</p>
         <h2>It all started with a spark.</h2>
@@ -28,19 +30,24 @@ const AboutTemplate = () => (
         <h2>“Be who you needed, when you were young”.</h2>
         <p>Now we’re the biggest party of the country, however, all has started with a small idea of help, and we still fight for it.</p>
       </div>
-      <Image
-        src={AmyValues}
-        height={400}
-        className={styles.nextImage}
-      />
+      <div className={styles.nextImgWrapper}>
+        <Image
+          src={AmyValues}
+          height={400}
+          className={styles.nextImage}
+        />
+      </div>
     </div>
     
     <div className={styles.sectionTrack}>
-      <Image
-        src={AmyAccomp}
-        height={400}
-        className={styles.nextImage}
-      />
+      <div className={styles.nextImgWrapper}>
+        <Image
+          src={AmyAccomp}
+          height={400}
+          className={styles.nextImage}
+        />
+      </div>
+
       <div className={styles.sectionCard}>
         <p>ACCOMPLISHMENTS</p>
         <h2>Growth</h2>
@@ -54,11 +61,13 @@ const AboutTemplate = () => (
         <h2>Support</h2>
         <p>Now we’re the biggest party of the country, however, all has started with a small idea of help, and we still fight for it.</p>
       </div>
-      <Image
-        src={AmySupport}
-        height={400}
-        className={styles.nextImage}
-      />
+      <div className={styles.nextImgWrapper}>
+        <Image
+          src={AmySupport}
+          height={400}
+          className={styles.nextImage}
+        />
+      </div>
     </div>
 
   </section>
