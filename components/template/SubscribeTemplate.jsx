@@ -68,6 +68,28 @@ const SubscribeTemplate = ({ onNavClick }) => {
             <p className={styles.counterName}>Seconds</p>
           </div>
         </div>
+
+        {/* <div>
+          <div className={styles.counterNumberDay}>
+            <p className={styles.counterNumber}>22</p>
+            <p className={styles.counterName}>Days</p>
+          </div>
+          <span>:</span>
+          <div className={styles.counterNumberDay}>
+            <p className={styles.counterNumber}>21</p>
+            <p className={styles.counterName}>Hours</p>
+          </div>
+          <span>:</span>
+          <div className={styles.counterNumberDay}>
+            <p className={styles.counterNumber}>20</p>
+            <p className={styles.counterName}>Minutes</p>
+          </div>
+          <span>:</span>
+          <div className={styles.counterNumberDay}>
+            <p className={styles.counterNumber}>24</p>
+            <p className={styles.counterName}>Seconds</p>
+          </div>
+        </div> */}
       </div>
 
       <div className={styles.subscribeContent}>
