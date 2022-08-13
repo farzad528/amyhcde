@@ -27,7 +27,7 @@ const FooterTemplate = () => (
       </a>
       <a
         className={styles.mediaWrapper}
-        href='https://www.facebook.com/amyforhcde'
+        href='https://secure.actblue.com/donate/amy-hinojosa-for-hcde'
         target='_blank'
         rel='noopener noreferrer'
       >
@@ -35,7 +35,7 @@ const FooterTemplate = () => (
         <span>Donate</span>
       </a>
     </div>
-    
+
     <div className={styles.subscribeFooter}>
       <p>Made with ❤️ by Amy’s supporters.️</p>
     </div>
