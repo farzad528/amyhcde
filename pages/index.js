@@ -1,3 +1,4 @@
+import dynamic from 'next/dynamic'
 import SubscribeTemplate from '../components/template/SubscribeTemplate'
 import AboutTemplate from '../components/template/AboutTemplate'
 import TestimonialsTemplate from '../components/template/TestimonialsTemplate'
@@ -25,10 +26,17 @@ export default function Home() {
 
   return (
     <>
-      <SubscribeTemplate onNavClick={(type) => handleBackClick(type)} />
+      <DynamicCountTemplate onNavClick={(type) => handleBackClick(type)} />
       <AboutTemplate />
       <TestimonialsTemplate />
       <FooterTemplate />
     </>
   )
 }
+
+const DynamicCountTemplate = dynamic(
+  () => import('../components/template/SubscribeTemplate'),
+  {
+    ssr: false,
+  }
+)
