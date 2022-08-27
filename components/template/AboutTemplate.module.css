@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background: #CF5931;
+  background: #cf5931;
 }
 
 .sectionCard {
@@ -19,6 +19,18 @@
   line-height: 25px;
 }
 
+.sectionCard a {
+  padding: 10px 30px;
+  border-radius: 4px;
+  background: #fff;
+  color: #000;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
 @media only screen and (max-width: 600px) {
   .nextImgWrapper {
     display: none;
@@ -28,4 +40,3 @@
     width: 100%;
   }
 }
-

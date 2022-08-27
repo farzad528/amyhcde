@@ -5,6 +5,7 @@ import AmyAbout from '../../assets/amyAbout.png'
 import AmyValues from '../../assets/amyValues.png'
 import AmyAccomp from '../../assets/amyAccomp.png'
 import AmySupport from '../../assets/amySupport.png'
+import Link from 'next/link'
 
 const AboutTemplate = () => {
   return (
@@ -20,6 +21,7 @@ const AboutTemplate = () => {
             Now we’re the biggest party of the country, however, all has started
             with a small idea of help, and we still fight for it.
           </p>
+          <Link href='/about'>Read more</Link>
         </div>
       </div>
 
