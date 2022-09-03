@@ -10,28 +10,20 @@
   height: 100%;
   width: 30vw;
   margin: 35px 32px;
+  color: black;
 }
 
 .sectionCard > h2 {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #000000;
+  color: black;
 }
 
-/* .sectionCard p {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  color: #000000;
-} */
-
 .sectionCardHeader {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -42,7 +34,7 @@
 .sectionReadMoreButton {
   color: rgba(135, 57, 250, 1);
   text-transform: uppercase;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-style: normal;
   font-size: 16px;
   line-height: 22px;
