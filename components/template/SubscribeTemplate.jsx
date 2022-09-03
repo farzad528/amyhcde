@@ -24,7 +24,7 @@ const SubscribeTemplate = ({ onNavClick }) => {
       <div className={styles.subscribeHeader}>
         <p className={styles.subscribeHeaderLabel}>AmyHinojosa</p>
 
-        <div>
+        {/* <div>
           <p className={styles.navLink} onClick={() => onNavClick('about')}>
             About
           </p>
@@ -40,7 +40,7 @@ const SubscribeTemplate = ({ onNavClick }) => {
           <p className={styles.navLink} onClick={() => onNavClick('stake')}>
             What’s at Stake?
           </p>
-        </div>
+        </div> */}
 
         <div className={styles.mediasWrapper}>
           <a
