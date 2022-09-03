@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background: #cf5931;
+  background: #fafaf5;
+  padding: 1rem;
 }
 
 .sectionCard {
@@ -11,12 +12,33 @@
   margin: 35px 32px;
 }
 
-.sectionCard p {
+.sectionCard > h2{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
+}
+
+/* .sectionCard p {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
+  color: #000000;
+} */
+
+.sectionCardHeader {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8739FA;
+  
 }
 
 .sectionCard a {
@@ -29,6 +51,11 @@
   cursor: pointer;
   font-weight: 700;
   margin-top: 50px;
+}
+
+.nextImgWrapper {
+  margin: 1rem 0;
+
 }
 
 @media only screen and (max-width: 600px) {
