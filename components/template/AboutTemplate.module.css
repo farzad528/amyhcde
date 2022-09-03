@@ -12,8 +12,8 @@
   margin: 35px 32px;
 }
 
-.sectionCard > h2{
-  font-family: 'Open Sans';
+.sectionCard > h2 {
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -31,31 +31,43 @@
 } */
 
 .sectionCardHeader {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-
-  color: #8739FA;
-  
+  color: #8739fa;
 }
 
-.sectionCard a {
-  padding: 10px 30px;
-  border-radius: 4px;
-  background: #fff;
-  color: #000;
-  border: none;
-  text-decoration: none;
+.sectionReadMoreButton {
+  color: rgba(135, 57, 250, 1);
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #8739fa;
+  border: 1px solid #8739fa;
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border-color 0.5s, background-color 0.5s, color;
   cursor: pointer;
-  font-weight: 700;
-  margin-top: 50px;
+}
+
+.sectionReadMoreButton:hover {
+  color: #fff;
+  background: #8739fa;
 }
 
 .nextImgWrapper {
   margin: 1rem 0;
-
 }
 
 @media only screen and (max-width: 600px) {

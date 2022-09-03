@@ -28,7 +28,7 @@ export default function Home() {
     <>
       <DynamicCountTemplate onNavClick={(type) => handleBackClick(type)} />
       <AboutTemplate />
-      <TestimonialsTemplate />
+      {/* <TestimonialsTemplate /> */}
       <FooterTemplate />
     </>
   )
