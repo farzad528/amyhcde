@@ -1,23 +1,23 @@
-import React from 'react'
-import Image from 'next/image'
-import styles from './SubscribeTemplate.module.css'
-import { useCountdown } from '../../hooks/useCountDown'
-import FacebookIcon from '../icons/FacebookIcon'
-import TweeterIcon from '../icons/TweeterIcon'
-import EmailIcon from '../icons/EmailIcon'
-import GiftIcon from '../icons/GiftIcon'
-import AmyHero from '../../assets/amyHero.png'
+import React from "react";
+import Image from "next/image";
+import styles from "./SubscribeTemplate.module.css";
+import { useCountdown } from "../../hooks/useCountDown";
+import FacebookIcon from "../icons/FacebookIcon";
+import TweeterIcon from "../icons/TweeterIcon";
+import EmailIcon from "../icons/EmailIcon";
+import GiftIcon from "../icons/GiftIcon";
+import AmyHero from "../../assets/amyHero.png";
 
 const SubscribeTemplate = ({ onNavClick }) => {
   // const THREE_DAYS_IN_MS = 3 * 24 * 60 * 60 * 1000
   // const NOW_IN_MS = new Date().getTime()
   // const countDown = useCountdown(EVENT - NOW_IN_MS)
 
-  const EVENT = new Date('08 November 2022 07:00 CST').getTime()
+  const EVENT = new Date("08 November 2022 07:00 CST").getTime();
 
-  const heroImageScale = 0.8
+  const heroImageScale = 0.8;
 
-  const countDown = useCountdown(EVENT)
+  const countDown = useCountdown(EVENT);
   return (
     <main className={styles.subscribeTemplateContainer}>
       {/* header */}
@@ -45,9 +45,9 @@ const SubscribeTemplate = ({ onNavClick }) => {
         <div className={styles.mediasWrapper}>
           <a
             className={styles.mediaWrapper}
-            href='https://www.facebook.com/amyforhcde'
-            target='_blank'
-            rel='noopener noreferrer'
+            href="https://www.facebook.com/amyforhcde"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <FacebookIcon />
           </a>
@@ -57,17 +57,17 @@ const SubscribeTemplate = ({ onNavClick }) => {
         </a> */}
           <a
             className={styles.mediaWrapper}
-            href='mailto: amyforhcde@gmail.com'
-            target='_blank'
-            rel='noopener noreferrer'
+            href="mailto: amyforhcde@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <EmailIcon />
           </a>
           <a
             className={styles.mediaWrapper}
-            href='https://secure.actblue.com/donate/amy-hinojosa-for-hcde'
-            target='_blank'
-            rel='noopener noreferrer'
+            href="https://secure.actblue.com/donate/amy-hinojosa-for-hcde"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <GiftIcon />
           </a>
@@ -83,14 +83,15 @@ const SubscribeTemplate = ({ onNavClick }) => {
               Support Amy Hinojosa for your Harris County School Trustee,
               Position 1 Precinct 2
             </p>
-            <a
-              className={styles.donateButton}
-              href='https://secure.actblue.com/donate/amy-hinojosa-for-hcde'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              Donate
-            </a>
+            <div className={styles.donateButton}>
+              <a
+                href="https://secure.actblue.com/donate/amy-hinojosa-for-hcde"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Donate
+              </a>
+            </div>
           </div>
 
           <div className={styles.counterWrapper}>
@@ -131,7 +132,7 @@ const SubscribeTemplate = ({ onNavClick }) => {
         </div>
       </div>
     </main>
-  )
-}
+  );
+};
 
-export default SubscribeTemplate
+export default SubscribeTemplate;
