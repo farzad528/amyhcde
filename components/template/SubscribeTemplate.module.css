@@ -78,6 +78,7 @@
 
 .mediaWrapper:hover {
   opacity: 0.5;
+  
 }
 
 .mediaWrapper svg {
@@ -128,13 +129,13 @@
 }
 
 .counterWrapper {
-  margin-top: 100px;
+  margin: 100px 0;
   height: 209px;
   width: 100%;
   max-width: 725px;
   background: #f2f2f2;
   border-radius: 10px;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
   color: black;
   display: flex;
   flex-direction: column;

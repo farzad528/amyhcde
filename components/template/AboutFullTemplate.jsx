@@ -1,32 +1,36 @@
-import Link from 'next/link'
-import Button from '../atoms/Button'
-import styles from './AboutfullTemplate.module.css'
+import Link from "next/link";
+import Button from "../atoms/Button";
+import styles from "./AboutFullTemplate.module.css";
+import FooterTemplate from "./FooterTemplate";
+import BackIcon from "../icons/BackIcon";
 
 const AboutFullTemplate = () => {
   return (
     <main className={styles.aboutFullTemplateContainer}>
       <div className={styles.aboutFullHeader}>
-        <p onClick={() => console.log(countDown)}>
-          Made with ❤️ by Amy’s supporters.️
-        </p>
-
-        <div>
-          <Link className={styles.navLink} href='/#about-id'>
+        <div className={styles.navLinkContainer}>
+          <Link className={styles.navLink} href="/#about-id">
             About
           </Link>
-          <Link className={styles.navLink} href='/#values-id'>
+          <Link className={styles.navLink} href="/#values-id">
             Values
           </Link>
-          <Link className={styles.navLink} href='/#accomplishments-id'>
+          <Link className={styles.navLink} href="/#accomplishments-id">
             Accomplishments
           </Link>
-          <Link className={styles.navLink} href='/#stake-id'>
+          <Link className={styles.navLink} href="/#stake-id">
             What’s at Stake?
           </Link>
         </div>
       </div>
 
       <div className={styles.contentWrapper}>
+        <Link href="/">
+          <a>
+            {" "}
+            <BackIcon />
+          </a>
+        </Link>
         <h3>About</h3>
         <p>
           Amy Hinojosa was born and raised in Pasadena TX, where she currently
@@ -62,11 +66,10 @@ const AboutFullTemplate = () => {
           dogs, bodybuilding, cooking with her husband, learning to play the
           guitar and watching her two sons play high school baseball.
         </p>
-
-        <Link href='/'>Home</Link>
       </div>
+      <FooterTemplate />
     </main>
-  )
-}
+  );
+};
 
-export default AboutFullTemplate
+export default AboutFullTemplate;
