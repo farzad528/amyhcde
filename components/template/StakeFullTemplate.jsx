@@ -30,10 +30,10 @@ const StakeFullTemplate = () => {
             <BackIcon />
           </a>
         </Link>
-        <h3>What's at Stake?</h3>
+        <h3>What&apos;s  at Stake?</h3>
         <p>
           The department serves on average 150,000 students and educators
-          providing before & after school care, extracurricular activities, and
+          providing before and after school care, extracurricular activities, and
           school-based therapy services. Further, HCDE runs four schools
           dedicated to educating, supporting and encouraging our youth that are
           adjudicated or expelled, in substance abuse recovery and those with

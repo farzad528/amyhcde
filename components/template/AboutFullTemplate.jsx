@@ -44,21 +44,21 @@ const AboutFullTemplate = () => {
           high school mentor program at Northside High School with Project GRAD.
           After finding inspiration volunteering at her local little league, Amy
           founded Community Leaders Encouraging Academia Through Sports, CLEATS
-          Inc., to facilitate local university visits for children in Pasadena’s
-          athletic programs. She is a Houston Leadership ISD 2020 fellow and a
-          Houston Latinos for Education 2019 fellow. Amy serves as a director on
-          the board of ProUnitas, a non-profit organization dedicated to raising
-          awareness of and providing access to health and wellness resources
-          needed by students in the community. In December 2019, Amy was
-          appointed to Position 1 on the Harris County Department of Education
-          Board of Trustees. During her tenure, she voted to raise department
-          wages to a minimum of 15 dollars, provide Harris County school
-          districts with pandemic supplies, allocate $300,000 for teacher
-          supplies, approve a new equine therapy program, expand early
-          childhood/after-school programs, and approve new facilities
-          specifically designed for the unique needs of the students at HCDE
-          schools. Recently, Amy was accepted to the Chamber of Commerce IMPACT
-          Pasadena, 2022 fellowship program for future leaders.
+          Inc., to facilitate local university visits for children in
+          Pasadena&apos;s athletic programs. She is a Houston Leadership ISD
+          2020 fellow and a Houston Latinos for Education 2019 fellow. Amy
+          serves as a director on the board of ProUnitas, a non-profit
+          organization dedicated to raising awareness of and providing access to
+          health and wellness resources needed by students in the community. In
+          December 2019, Amy was appointed to Position 1 on the Harris County
+          Department of Education Board of Trustees. During her tenure, she
+          voted to raise department wages to a minimum of 15 dollars, provide
+          Harris County school districts with pandemic supplies, allocate
+          $300,000 for teacher supplies, approve a new equine therapy program,
+          expand early childhood/after-school programs, and approve new
+          facilities specifically designed for the unique needs of the students
+          at HCDE schools. Recently, Amy was accepted to the Chamber of Commerce
+          IMPACT Pasadena, 2022 fellowship program for future leaders.
           <br />
           <br />
           In her spare time Amy enjoys hanging out with her pet cat and two
