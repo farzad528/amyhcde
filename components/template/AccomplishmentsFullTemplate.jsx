@@ -27,7 +27,7 @@ const AccomplishmentsFullTemplate = () => {
       <div className={styles.contentWrapper}>
         <Link href="/">
           <a>
-            {" "}
+            {` `}
             <BackIcon />
           </a>
         </Link>
