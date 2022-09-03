@@ -31,9 +31,10 @@ const AboutTemplate = () => {
             University of Houston, and is passionate about elevating students,
             families and generations through education.
           </p>
-          <div className={styles.sectionReadMoreButton}>
-            <Link href="/about">Read more</Link>
-          </div>
+
+          <Link href="/about">
+            <div className={styles.sectionReadMoreButton}>Read more </div>
+          </Link>
         </div>
       </div>
 
@@ -45,9 +46,9 @@ const AboutTemplate = () => {
             "Academia is not the path for every student, but every student
             should know the path to academia." <br />- Trustee Hinojosa
           </p>
-          <div className={styles.sectionReadMoreButton}>
-            <Link href="/values">Read more</Link>
-          </div>
+          <Link href="/values">
+            <div className={styles.sectionReadMoreButton}>Read more </div>
+          </Link>
         </div>
         <div className={styles.nextImgWrapper}>
           <Image
@@ -78,9 +79,9 @@ const AboutTemplate = () => {
             Garcia’s Office to expand the “2 College & Beyond FREE SAT
             Preparation Course” to the students in our HCDE special schools
           </p>
-          <div className={styles.sectionReadMoreButton}>
-            <Link href="/accomplishments">Read more</Link>
-          </div>
+          <Link href="/accomplishments">
+            <div className={styles.sectionReadMoreButton}>Read more </div>
+          </Link>
         </div>
       </div>
 
@@ -93,9 +94,9 @@ const AboutTemplate = () => {
             and vision of HCDE because I believe in the work we are doing and
             the difference it makes in the lives of Harris County citizens.
           </p>
-          <div className={styles.sectionReadMoreButton}>
-            <Link href="/stake">Read more</Link>
-          </div>
+          <Link href="/stake">
+            <div className={styles.sectionReadMoreButton}>Read more </div>
+          </Link>
         </div>
         <div className={styles.nextImgWrapper}>
           <Image
