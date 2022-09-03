@@ -1,14 +1,16 @@
 .subscribeTemplateContainer {
-  background-image: url('/images/bg.png');
-  background-size: auto;
-  height: 100vh;
+  /* background-image: url('/images/bg.png'); */
+  /* background-size: auto; */
+  background: #fff;
+  min-height: 100vh;
   width: 100%;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  /* color: white; */
+  color: black;
 }
 
 .subscribeHeader {
@@ -17,7 +19,12 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 35px 95px;
+  padding: 30px 50px;
+}
+
+.subscribeHeaderLabel {
+  font-size: 24px;
+  font-weight: 800;
 }
 
 .subscribeHeader > div {
@@ -30,12 +37,35 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 33px;
-  text-decoration-line: underline;
   cursor: pointer;
 }
 
 .navLink + .navLink {
   margin-left: 10px;
+}
+
+.mainContent {
+  margin-top: 90px;
+  width: 100%;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftSide {
+  max-width: 725px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rightSide {
+  /* background: lightcoral; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mediaWrapper {
@@ -44,11 +74,11 @@
   align-items: center;
   margin-left: 30px;
   transition: 200ms color ease-in-out;
-  color: gray;
 }
 
 .mediaWrapper:hover {
-  color: white;
+  opacity: 0.5;
+  
 }
 
 .mediaWrapper svg {
@@ -99,11 +129,13 @@
 }
 
 .counterWrapper {
+  margin: 100px 0;
   height: 209px;
-  width: 90vw;
-  max-width: 987px;
+  width: 100%;
+  max-width: 725px;
   background: #f2f2f2;
   border-radius: 10px;
+  /* border: 1px solid #000000; */
   color: black;
   display: flex;
   flex-direction: column;
@@ -118,7 +150,7 @@
   font-size: 40px;
   margin-bottom: -20px;
 
-  color: #002868;
+  color: #000;
 }
 
 .counterWrapper > div {
@@ -158,30 +190,77 @@
   color: #002868;
 }
 
-.mediasWrapper {
-  display: flex;
-  color: #ffffff;
+.causeText h2 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
 }
 
-@media only screen and (max-width: 600px) {
+.causeText p {
+  font-family: Nunito Sans;
+  font-size: 26px;
+  font-weight: 600;
+  color: #9a9a9a;
+}
+
+.mediasWrapper {
+  display: flex;
+  color: #000;
+}
+
+.donateButton {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  cursor: pointer;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    #667eea,
+    #764ba2,
+    #6b8dd6,
+    #8e37d7
+  );
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+.donateButton:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.donateButton:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 769px) {
   .subscribeHeader {
     justify-content: center;
   }
 
-  .logoWrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-
-  .logoWrapper img {
-    width: 90%;
-  }
-
-  .subscribeContent {
-    padding: 0 35px;
-    text-align: center;
+  .mainContent {
+    padding: 20px;
   }
 
   .joinWrapper > div {
@@ -191,12 +270,14 @@
     align-items: center;
   }
 
-  .joinWrapper > div button {
-    margin-top: 10px;
-  }
-
   .subscribeHeader > div {
     display: none;
+  }
+
+  .counterWrapper {
+    margin-top: 50px;
+    height: 180px;
+    max-width: 90vw;
   }
 
   .counterWrapper h2 {
@@ -209,6 +290,10 @@
     font-size: 28px;
   }
 
+  .counterWrapper span {
+    margin: -40px 5px 0 5px;
+  }
+
   .counterName {
     font-size: 16px;
     margin-top: 0px;
@@ -216,5 +301,25 @@
 
   .subscribeHeader {
     padding: 35px;
+  }
+
+  .causeText h2 {
+    font-size: 28px;
+    line-height: normal;
+  }
+
+  .causeText p {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .donateButton {
+    padding: 8px 24px;
+    border-radius: 25px;
+    font-size: 16px;
+  }
+
+  .rightSide {
+    display: none;
   }
 }
