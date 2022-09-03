@@ -32,7 +32,7 @@
 }
 
 .navLink {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -45,7 +45,7 @@
 }
 
 .mainContent {
-  margin-top: 80px;
+  margin-top: 90px;
   width: 100%;
   padding: 0 50px;
   display: flex;
@@ -214,7 +214,7 @@
   font-size: 16px;
   font-weight: 600;
   color: #fff;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
