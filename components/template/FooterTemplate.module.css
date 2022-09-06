@@ -1,19 +1,102 @@
-.footerTemplate {
+.aboutFullTemplateContainer {
+  background: rgba(83, 51, 127, 1);
+  background-size: auto;
+  min-height: 100vh;
   width: 100%;
-  height: 100px;
-  background: #53337f;
+  padding: 100px 0 50px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.aboutFullHeader {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 35px 95px;
   color: #fff;
 }
 
-.subscribeFooter {
-  font-size: 14px;
+.navLinkContainer {
+  transition: 200ms color ease-in-out;
+  color: #fafaf5;
+}
+.navLinkContainer:hover {
+  color: #fff;
+}
+
+.aboutFullHeader > div a + a {
+  margin-left: 10px;
+}
+
+.aboutFullHeader a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contentWrapper {
+  background: #fafaf5;
+  margin: 0 100px;
+  padding: 50px;
+  max-width: 1242px;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+
+.contentWrapper h3 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.contentWrapper p {
+  margin-bottom: 50px;
+  color: #000;
+}
+
+.contentWrapper a:hover {
+  opacity: 0.5;
+}
+.contentWrapper a {
+  transition: 200ms opacity ease-in-out;
+}
+
+.homeButton {
+  color: #000;
 }
 
 @media only screen and (max-width: 600px) {
-  .footerTemplate {
-    height: 200px;
+  .aboutFullHeader {
+    justify-content: center;
+    padding: 35px;
+    text-align: center;
+  }
+
+  .aboutFullHeader > div {
+    display: none;
+  }
+
+  .contentWrapper {
+    background: #fafaf5;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 50px;
+    color: #000;;
+  }
+
+  .contentWrapper h3 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .contentWrapper a {
   }
 }

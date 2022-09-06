@@ -32,7 +32,7 @@
 }
 
 .navLink {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -78,7 +78,6 @@
 
 .mediaWrapper:hover {
   opacity: 0.5;
-  
 }
 
 .mediaWrapper svg {
@@ -214,7 +213,7 @@
   font-size: 16px;
   font-weight: 600;
   color: #fff;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;

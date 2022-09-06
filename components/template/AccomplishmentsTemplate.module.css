@@ -58,6 +58,7 @@
 
 .contentWrapper p {
   margin-bottom: 50px;
+  color: #000;
 }
 
 .contentWrapper a:hover {
@@ -88,6 +89,7 @@
     padding: 20px;
     border-radius: 4px;
     margin-top: 50px;
+    color: #000;;
   }
 
   .contentWrapper h3 {
