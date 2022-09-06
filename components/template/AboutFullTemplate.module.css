@@ -54,6 +54,7 @@
 .contentWrapper h3 {
   font-size: 38px;
   font-weight: 700;
+  color: #000;
 }
 
 .contentWrapper p {
@@ -89,12 +90,13 @@
     padding: 20px;
     border-radius: 4px;
     margin-top: 50px;
-    color: #000;;
+    color: #000;
   }
 
   .contentWrapper h3 {
     font-size: 30px;
     font-weight: 700;
+    color: #000;;
   }
 
   .contentWrapper a {
