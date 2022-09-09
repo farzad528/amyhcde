@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import styles from "./AboutTemplate.module.css";
-import AmyAbout from "../../assets/amyAbout.png";
-import AmyValues from "../../assets/amyValues.png";
-import AmyAccomp from "../../assets/amyAccomp.png";
-import AmySupport from "../../assets/amySupport.png";
+import AmyAbout from "../../assets/BornRaised.jpg";
+import AmyValues from "../../assets/BeWhoYouNeeded.jpg";
+import AmyAccomp from "../../assets/currentInitiatives.jpg";
+import AmyStake from "../../assets/DeptServes.jpg";
 import about from "../../assets/about.svg";
 import accomplishments from "../../assets/accomplishments.svg";
 import stake from "../../assets/stake.svg";
@@ -17,8 +17,9 @@ const AboutTemplate = () => {
       <div className={styles.sectionTrack} id="about-id">
         <div className={styles.nextImgWrapper}>
           <Image
-            src={about}
-            height={300}
+            src={AmyAbout}
+            width={600}
+            height={450}
             alt="picture of about Amy"
             className={styles.nextImage}
           />
@@ -52,8 +53,9 @@ const AboutTemplate = () => {
         </div>
         <div className={styles.nextImgWrapper}>
           <Image
-            src={values}
-            height={300}
+            src={AmyValues}
+            width={600}
+            height={355}
             alt="picture of amy's values"
             className={styles.nextImage}
           />
@@ -63,8 +65,9 @@ const AboutTemplate = () => {
       <div className={styles.sectionTrack} id="accomplishments-id">
         <div className={styles.nextImgWrapper}>
           <Image
-            src={accomplishments}
-            height={300}
+            src={AmyAccomp}
+            width={333}
+            height={500}
             alt="picture of Amy's accomplishments"
             className={styles.nextImage}
           />
@@ -100,8 +103,9 @@ const AboutTemplate = () => {
         </div>
         <div className={styles.nextImgWrapper}>
           <Image
-            src={stake}
-            height={300}
+            src={AmyStake}
+            width={375}
+            height={500}
             alt="picture of about Amy"
             className={styles.nextImage}
           />

@@ -109,6 +109,10 @@
   color: white;
 }
 
+.buttonGroup {
+  display: flex;
+}
+
 .input {
   width: 300px;
   height: 50px;
@@ -224,6 +228,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-right: 1rem;
   border: none;
   background-size: 300% 100%;
   border-radius: 50px;
@@ -251,6 +256,34 @@
 
 .donateButton:focus {
   outline: none;
+}
+
+
+.requestButton {
+  color: rgba(135, 57, 250, 1);
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #8739fa;
+  border: 1px solid #8739fa;
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border-color 0.5s, background-color 0.5s, color;
+  cursor: pointer;
+}
+
+.requestButton:hover {
+  color: #fff;
+  background: #8739fa;
 }
 
 @media only screen and (max-width: 769px) {

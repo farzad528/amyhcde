@@ -68,14 +68,25 @@ const SubscribeTemplate = ({ onNavClick }) => {
               Support Amy Hinojosa for your Harris County School Trustee,
               Position 1 Precinct 2
             </p>
-            <div className={styles.donateButton}>
-              <a
-                href="https://secure.actblue.com/donate/amy-hinojosa-for-hcde"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Donate
-              </a>
+            <div className={styles.buttonGroup}>
+              <div className={styles.donateButton}>
+                <a
+                  href="https://secure.actblue.com/donate/amy-hinojosa-for-hcde"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Donate
+                </a>
+              </div>
+              <div className={styles.requestButton}>
+                <a
+                  href="https://forms.gle/RCKUzxvPsFhAjnEX7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Get a FREE Yard Sign
+                </a>
+              </div>
             </div>
           </div>
 
