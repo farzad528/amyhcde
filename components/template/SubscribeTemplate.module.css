@@ -22,10 +22,10 @@
   padding: 30px 50px;
 }
 
-.subscribeHeaderLabel {
+/* .subscribeHeaderLabel {
   font-size: 24px;
   font-weight: 800;
-}
+} */
 
 .subscribeHeader > div {
   display: flex;

@@ -7,6 +7,7 @@ import TweeterIcon from "../icons/TweeterIcon";
 import EmailIcon from "../icons/EmailIcon";
 import GiftIcon from "../icons/GiftIcon";
 import AmyHero from "../../assets/amyHero.png";
+import AmyLogo from "../../assets/amylogo.jpg";
 
 const SubscribeTemplate = ({ onNavClick }) => {
   // const THREE_DAYS_IN_MS = 3 * 24 * 60 * 60 * 1000
@@ -22,25 +23,9 @@ const SubscribeTemplate = ({ onNavClick }) => {
     <main className={styles.subscribeTemplateContainer}>
       {/* header */}
       <div className={styles.subscribeHeader}>
-        <p className={styles.subscribeHeaderLabel}>AmyHinojosa</p>
-
-        {/* <div>
-          <p className={styles.navLink} onClick={() => onNavClick('about')}>
-            About
-          </p>
-          <p className={styles.navLink} onClick={() => onNavClick('values')}>
-            Values
-          </p>
-          <p
-            className={styles.navLink}
-            onClick={() => onNavClick('accomplishments')}
-          >
-            Accomplishments
-          </p>
-          <p className={styles.navLink} onClick={() => onNavClick('stake')}>
-            What’s at Stake?
-          </p>
-        </div> */}
+        <div className={styles.subscribeHeaderLabel}>
+          <Image src={AmyLogo} width={200} height={105} />
+        </div>
 
         <div className={styles.mediasWrapper}>
           <a
