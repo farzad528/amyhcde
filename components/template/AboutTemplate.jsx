@@ -26,7 +26,7 @@ const AboutTemplate = () => {
         </div>
         <div className={styles.sectionCard}>
           <p className={styles.sectionCardHeader}>ABOUT</p>
-          <h2>Born and Raised in Pasadena..</h2>
+          <h2>Born and Raised in Pasadena</h2>
           <p>
             She has a Bachelor of Science in Chemical Engineering from The
             University of Houston, and is passionate about elevating students,
